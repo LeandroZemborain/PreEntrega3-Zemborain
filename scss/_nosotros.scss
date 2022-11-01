@@ -1,0 +1,25 @@
+
+.contenedor-ns {
+    width: 100%;
+  }
+  
+  .contenedor-ns img {
+    height: 30vh;
+    width: 20vh;
+    padding: 0.4rem;
+    filter: opacity(80%);
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .contenedor-ns p {
+    text-shadow: 0 0 1px $txt-shadow;
+    color: $txt-color;
+    font-family: $font;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    text-align: start;
+    margin-top: 1.5rem;
+  }
+  
+  

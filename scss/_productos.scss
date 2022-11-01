@@ -1,0 +1,76 @@
+
+.bg-prod {
+    /**hacer @extend o mixin**/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    background-image: url(../img/fondoverde1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .titulo h1 {
+    /**hacer mixin o extend--**/
+    font-family: "Roboto";
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 0 5px $txt-shadow;
+    color: $titulo-color;
+    margin-top: 0.5rem;
+  }
+  
+  .carousel {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-inner {
+    box-shadow: 0 0 0.5rem $txt-shadow;
+    border-radius: 50%;
+    padding: 0.9rem;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: $bg-celeste;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 1.1rem;
+    top: 32%;
+  }
+  
+  .carousel-item {
+    border-radius: 50%;
+  }
+  
+  .carousel-item img {
+    filter: contrast(80%);
+    border: 0.1rem solid $titulo-color;
+    border-radius: 50%;
+    height: 45vh;
+  }
+  
+  /*boton*/
+  .btn {
+    font-size: 1.6rem;
+    color: $bg-celeste;
+    margin: 0.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-color: $bg-celeste;
+    box-shadow: 0 0 0.5rem $txt-shadow;
+  }
+  
+  .btn:hover {
+    background-color: $bg-celeste;
+  }
+  
+ 

@@ -1,0 +1,58 @@
+
+
+.mn-grids {
+    height: 85vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .txt {
+    grid-column: 2/4;
+    grid-row: 2;
+    margin: 0;
+  }
+  
+  .texto2 {
+    grid-column: 1/4;
+    grid-row: 3;
+    margin: 0;
+  }
+  
+  .txt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0.4rem;
+  }
+  
+  .texto1 {
+    font-family: "Roboto", bold;
+    color: $txt-color;
+    text-shadow: 0 0 8px $txt-shadow;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
+    text-align: end;
+    word-spacing: 1.5rem;
+  }
+  
+  .texto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto2 a {
+    font-family: "Roboto", bold;
+    font-size: 2.2rem;
+    text-shadow: 8px 8px 18px $bg-form;
+    color: $titulo-color;
+    height: 15vh;
+  }
+  
+  .texto2 a:hover {
+    font-size: 3.5rem;
+    transition: 2s;
+  }
+  
+
