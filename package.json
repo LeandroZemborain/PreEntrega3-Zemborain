@@ -1,0 +1,22 @@
+{
+  "name": "preentrega3-zemborain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroZemborain/PreEntrega3-Zemborain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroZemborain/PreEntrega3-Zemborain/issues"
+  },
+  "homepage": "https://github.com/LeandroZemborain/PreEntrega3-Zemborain#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
