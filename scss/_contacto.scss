@@ -1,8 +1,8 @@
 /*Contacto*/
 .contenedor-fr {
+    @include flex_center;
     background-color: $bg-form;
     box-shadow: 0 0 15px $txt-shadow inset;
-    @include flex_center;
     border: 5px solid $bg-nav;
     border-radius: 3%;
     margin: 1.5rem;
