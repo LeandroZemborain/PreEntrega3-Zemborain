@@ -26,9 +26,6 @@
 }
 
 .navbar-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   margin-top: 3vh;
   width: 35vw;
@@ -38,25 +35,23 @@
 }
 
 .nav-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   color: $txt-color;
-  font-style: italic;
+  text-shadow: 0 0 8px $txt-shadow;
+  font-style: $font;
   background-color: $nav-item;
   border-radius: 40%;
+ 
 }
 
 .nav-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   height: fit-content;
   margin: 5px;
 }
-
+.navbar-nav, .nav-link, .nav-item{
+  @include flex_center;
+}
 .logo {
   width: 3em;
   height: 3em;

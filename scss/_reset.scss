@@ -7,7 +7,7 @@
   a {
     text-decoration: none;
     &:hover {
-      text-decoration: none;
+      @extend a;
     }
   }
   

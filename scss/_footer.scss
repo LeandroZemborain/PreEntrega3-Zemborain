@@ -1,18 +1,20 @@
 /*Footer*/
+.bg-footer,.redes{
+  @include flex_center;
+    a{
+      @include flex_center;
+    }
+  
+}
+
 .bg-footer {
   background-color: $footer-bg;
   font-style: italic;
   color: $txt-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
 .redes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   p {
     margin: 0;
@@ -22,9 +24,6 @@
   }
 
   a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 5px;
 
     img {
