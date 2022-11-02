@@ -1,77 +1,74 @@
-
+/*Header*/
 .navbar {
-    padding: 0;
-  }
-  
-  .container-fluid {
-    padding: 1.5 rem;
-    background-color: rgba(136, 212, 225, 0.3803921569);
-  }
-  
-  .navbar-toggler {
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-  }
-  
-  .navbar-toggler-icon {
-    width: 1em;
-    height: 1em;
-  }
-  
-  .navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    height: 0.1vh;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 3vh;
-    width: 35vw;
-    z-index: 100;
-    border-radius: 5%;
-    background-color: $bg-nav;
-  }
-  
-  .nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: $txt-color;
-    font-style: italic;
-    background-color: $nav-item;
-    border-radius: 40%;
-  }
-  
-  .nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: fit-content;
-    margin: 5px;
-  }
-  
-  .logo {
-    width: 3em;
-    height: 3em;
-    cursor: pointer;
-    background: $bg-celeste;
-    border-radius: 50%;
-  }
-  
-  .logo:hover {
-    transform: scale(1.3);
-    transition: 0.5s ease-in-out;
-    background-color: rgba(131, 223, 205, 0.7647058824);
-    border-radius: 50%;
-    background-size: cover;
-  }
-  
+  padding: 0;
+}
 
- 
+.container-fluid {
+  padding: 1.5 rem;
+  background-color: $cf-bg;
+}
+
+.navbar-toggler {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 0.1vh;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3vh;
+  width: 35vw;
+  z-index: 100;
+  border-radius: 5%;
+  background-color: $bg-nav;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $txt-color;
+  font-style: italic;
+  background-color: $nav-item;
+  border-radius: 40%;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  margin: 5px;
+}
+
+.logo {
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  background: $bg-celeste;
+  border-radius: 50%;
+
+  &:hover {
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+  background-color: $log-bg;
+  border-radius: 50%;
+  background-size: cover;
+  }
+}

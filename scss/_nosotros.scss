@@ -1,9 +1,8 @@
-
+/*Nosotros*/
 .contenedor-ns {
-    width: 100%;
-  }
-  
-  .contenedor-ns img {
+  width: 100%;
+
+  img {
     height: 30vh;
     width: 20vh;
     padding: 0.4rem;
@@ -11,8 +10,8 @@
     border-radius: 50%;
     float: left;
   }
-  
-  .contenedor-ns p {
+
+  p {
     text-shadow: 0 0 1px $txt-shadow;
     color: $txt-color;
     font-family: $font;
@@ -21,5 +20,4 @@
     text-align: start;
     margin-top: 1.5rem;
   }
-  
-  
+}

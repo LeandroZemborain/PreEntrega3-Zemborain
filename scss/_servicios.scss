@@ -1,7 +1,7 @@
-
+/*Servicios*/
 .contenedor-sv {
     padding: 0.1rem;
-    font-family: "Roboto";
+    font-family: $font;
     text-shadow: 0 0 1px $txt-shadow;
     text-align: center;
     display: flex;
@@ -12,28 +12,25 @@
     margin-top: 1.5rem;
   }
   
-  .segmento1 h2,
-  .segmento2 h2 {
+.segmento1,
+.segmento2{
+  h2{
     text-align: center;
     text-decoration: underline;
     font-size: 1.6rem;
     border-radius: 3%;
     padding: 0.4rem;
   }
-  
-  .segmento1 p,
-  .segmento2 p {
+  p{
     text-shadow: 0 0 1px $txt-shadow;
     color: $txt-color;
-    font-family: "Roboto";
+    font-family: $font;
     font-size: 1.1rem;
     padding: 0.4rem;
     margin: 0.4rem;
     text-align: start;
   }
-  
-  .segmento1 img,
-  .segmento2 img {
+  img{
     height: 20vh;
     width: 20vh;
     padding: 0.4rem;
@@ -41,5 +38,4 @@
     border-radius: 50%;
     float: right;
   }
-  
- 
+}

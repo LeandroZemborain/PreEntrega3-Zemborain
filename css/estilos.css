@@ -4,27 +4,29 @@
   padding: 0;
   box-sizing: border-box; }
 
-a,
-a:active {
+a {
   text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white;
+  background: #ffffff;
   background-image: url("../img/marianatienerazon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
+/*Header*/
 .navbar {
   padding: 0; }
 
 .container-fluid {
   padding: 1.5 rem;
-  background-color: rgba(136, 212, 225, 0.380392); }
+  background-color: #88d4e161; }
 
 .navbar-toggler {
   padding-left: 0.3em;
@@ -75,14 +77,14 @@ body {
   cursor: pointer;
   background: #46efef;
   border-radius: 50%; }
+  .logo:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    background-color: #83dfcdc3;
+    border-radius: 50%;
+    background-size: cover; }
 
-.logo:hover {
-  transform: scale(1.3);
-  transition: 0.5s ease-in-out;
-  background-color: rgba(131, 223, 205, 0.764706);
-  border-radius: 50%;
-  background-size: cover; }
-
+/*Main*/
 .mn-grids {
   height: 80vh;
   display: grid;
@@ -92,14 +94,7 @@ body {
 .txt {
   grid-column: 2/4;
   grid-row: 2;
-  margin: 0; }
-
-.texto2 {
-  grid-column: 1/4;
-  grid-row: 3;
-  margin: 0; }
-
-.txt {
+  margin: 0;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -115,23 +110,25 @@ body {
   word-spacing: 1.5rem; }
 
 .texto2 {
+  grid-column: 1/4;
+  grid-row: 3;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center; }
+  .texto2 a {
+    font-family: "Roboto", bold;
+    font-size: 2.2rem;
+    text-shadow: 8px 8px 18px #08b3994b;
+    color: #0ed2b4;
+    height: 15vh; }
+    .texto2 a:hover {
+      font-size: 3.5rem;
+      transition: 2s; }
 
-.texto2 a {
-  font-family: "Roboto", bold;
-  font-size: 2.2rem;
-  text-shadow: 8px 8px 18px #08b3994b;
-  color: #0ed2b4;
-  height: 15vh; }
-
-.texto2 a:hover {
-  font-size: 3.5rem;
-  transition: 2s; }
-
+/*Footer*/
 .bg-footer {
-  background-color: rgba(136, 212, 225, 0.380392);
+  background-color: #88d4e161;
   font-style: italic;
   color: #ffffff;
   display: flex;
@@ -143,31 +140,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .redes p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    font-weight: 500; }
+  .redes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; }
+    .redes a img {
+      height: 1.1rem;
+      width: 1.1rem;
+      margin-left: 5vw; }
 
-.redes p {
-  margin: 0;
-  padding: 0;
-  font-size: 0.9rem;
-  font-weight: 500; }
-
-.redes a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px; }
-
-.redes a img {
-  height: 1.1rem;
-  width: 1.1rem;
-  margin-left: 5vw; }
-
+/*Productos*/
 .bg-prod {
   /**hacer @extend o mixin**/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white;
+  background: #ffffff;
   background-image: url(../img/fondoverde1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -206,12 +201,11 @@ body {
 
 .carousel-item {
   border-radius: 50%; }
-
-.carousel-item img {
-  filter: contrast(80%);
-  border: 0.1rem solid #0ed2b4;
-  border-radius: 50%;
-  height: 45vh; }
+  .carousel-item img {
+    filter: contrast(80%);
+    border: 0.1rem solid #0ed2b4;
+    border-radius: 50%;
+    height: 45vh; }
 
 /*boton*/
 .btn {
@@ -222,10 +216,10 @@ body {
   margin-bottom: 0.8rem;
   border-color: #46efef;
   box-shadow: 0 0 0.5rem #000000; }
+  .btn:hover {
+    background-color: #46efef; }
 
-.btn:hover {
-  background-color: #46efef; }
-
+/*Servicios*/
 .contenedor-sv {
   padding: 0.1rem;
   font-family: "Roboto";
@@ -265,26 +259,26 @@ body {
   border-radius: 50%;
   float: right; }
 
+/*Nosotros*/
 .contenedor-ns {
   width: 100%; }
+  .contenedor-ns img {
+    height: 30vh;
+    width: 20vh;
+    padding: 0.4rem;
+    filter: opacity(80%);
+    border-radius: 50%;
+    float: left; }
+  .contenedor-ns p {
+    text-shadow: 0 0 1px #000000;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    text-align: start;
+    margin-top: 1.5rem; }
 
-.contenedor-ns img {
-  height: 30vh;
-  width: 20vh;
-  padding: 0.4rem;
-  filter: opacity(80%);
-  border-radius: 50%;
-  float: left; }
-
-.contenedor-ns p {
-  text-shadow: 0 0 1px #000000;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 1.2rem;
-  padding: 0.4rem;
-  text-align: start;
-  margin-top: 1.5rem; }
-
+/*Contacto*/
 .contenedor-fr {
   background-color: #08b3994b;
   box-shadow: 0 0 15px #000000 inset;
@@ -315,10 +309,11 @@ body {
   font-size: 1.2rem;
   text-size-adjust: auto;
   margin: 0.3rem;
-  background-color: rgba(255, 255, 255, 0.933333);
+  background-color: #ffffffee;
   box-shadow: 0 0 15px #000000 inset;
   color: #000000; }
 
+/*Medias Queries*/
 @media only screen and (min-width: 425px) {
   .contenedor-fr {
     margin: 1.5rem 4rem 1.5rem 4rem; }
@@ -361,10 +356,10 @@ body {
     height: 40vh; } }
 
 @media only screen and (min-width: 620px) {
-  .contenedor-ns p {
-    font-size: 1.6rem; }
   .contenedor-ns {
-    margin: 15vh 0 15vh 0; } }
+    margin: 15vh 0 15vh 0; }
+    .contenedor-ns p {
+      font-size: 1.6rem; } }
 
 @media only screen and (min-width: 720px) {
   .carousel {
@@ -373,6 +368,7 @@ body {
     height: 40vh; } }
 
 @media only screen and (min-width: 992px) {
+  /*Header*/
   .container-fluid {
     padding: 2vh; }
   .logo {
@@ -381,9 +377,9 @@ body {
     background: var(--bg-celeste);
     border-radius: 50%;
     margin-left: 1rem; }
-  .logo:hover {
-    transform: scale(1.5);
-    transition: 0.9s ease-in-out; }
+    .logo:hover {
+      transform: scale(1.5);
+      transition: 0.9s ease-in-out; }
   .navbar-collapse {
     margin: 0;
     display: flex;
@@ -393,17 +389,14 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgba(134, 203, 203, 0.196078);
-    border-radius: 20% 20% 20% 20%;
-    border-top: none;
-    margin: 0;
-    margin-right: 1rem; }
+    background-color: #86cbcb00;
+    margin: 0; }
   .nav-link:hover {
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
-    background-color: #245c56;
     border-radius: 40%;
     color: var(--titulo-color); }
+  /*main*/
   .texto1 {
     font-size: 2.4rem;
     word-spacing: 1.5rem;
@@ -411,14 +404,12 @@ body {
     margin: 1.4rem; }
   .texto2 a {
     font-size: 4.2rem; }
-  .texto2 a:hover {
-    font-size: 4.6rem;
-    transition: 3s ease-in-out; }
+    .texto2 a:hover {
+      font-size: 4.6rem;
+      transition: 3s ease-in-out; }
+  /*footer*/
   .bg-footer {
     height: 8vh; }
-  .redes a img:hover {
-    transform: scale(0.9);
-    transition: 1s ease-in-out; }
   .redes p {
     margin: 0;
     padding: 0;
@@ -427,6 +418,12 @@ body {
     height: 1rem;
     width: 1rem;
     margin-left: 2vw; }
+    .redes a img:hover {
+      transform: scale(0.9);
+      transition: 1s ease-in-out; }
+  /*productos*/
+  .mn-grids {
+    height: 75vh; }
   .titulo h1 {
     font-size: 4rem; }
   .carousel {
@@ -437,6 +434,7 @@ body {
   .btn {
     font-size: 1.6rem;
     margin-bottom: 10%; }
+  /*servicios*/
   .segmento1 h2,
   .segmento2 h2 {
     font-size: 2rem;
@@ -448,13 +446,15 @@ body {
   .segmento2 img {
     height: 20vh;
     width: 15vw; }
+  /*nosotros*/
   .contenedor-ns {
     margin: 15vh 0 15vh 0; }
-  .contenedor-ns p {
-    font-size: 1.6rem; }
-  .contenedor-ns img {
-    width: 15vw;
-    height: 20vh; }
+    .contenedor-ns p {
+      font-size: 1.6rem; }
+    .contenedor-ns img {
+      width: 15vw;
+      height: 20vh; }
+  /*contacto*/
   .datos,
   .datos2,
   .datos3 {
