@@ -41,18 +41,18 @@ body {
 
 .navbar-nav {
   text-align: center;
-  margin-top: 3vh;
+  margin: 1.5vh;
   width: 35vw;
   z-index: 100;
   border-radius: 5%;
-  background-color: #0e665de7; }
+  background-color: #03989e;
+  box-shadow: 0 0 10px #46efef; }
 
 .nav-link {
   text-align: center;
   color: #ffffff;
   text-shadow: 0 0 8px #000000;
   font-style: "Roboto";
-  background-color: #044d45;
   border-radius: 40%; }
 
 .nav-item {
@@ -279,7 +279,7 @@ body {
   align-items: center;
   background-color: #08b3994b;
   box-shadow: 0 0 15px #000000 inset;
-  border: 5px solid #0e665de7;
+  border: 5px solid #03989e;
   border-radius: 3%;
   margin: 1.5rem;
   padding-top: 1.5rem; }
@@ -299,7 +299,7 @@ body {
   height: 10vh;
   text-align: center;
   border-radius: 3%;
-  border: 0.1rem solid #0e665de7;
+  border: 0.1rem solid #03989e;
   font-size: 1.2rem;
   text-size-adjust: auto;
   margin: 0.3rem;
@@ -382,8 +382,11 @@ body {
   .navbar-nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #86cbcb00;
-    margin: 0; }
+    margin: 0;
+    background-color: transparent;
+    box-shadow: none; }
+  .nav-item {
+    font-size: 1.1rem; }
   .nav-link:hover {
     transform: scale(1.05);
     transition: 0.5s ease-in-out;

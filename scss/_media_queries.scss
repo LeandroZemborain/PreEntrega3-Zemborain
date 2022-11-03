@@ -114,8 +114,12 @@
   .navbar-nav {
     display: flex;
     justify-content: flex-end;
-    background-color: $nb-hide;
     margin: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .nav-item{
+    font-size: 1.1rem;
   }
 
   .nav-link:hover {

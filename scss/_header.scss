@@ -26,11 +26,12 @@
 
 .navbar-nav {
   text-align: center;
-  margin-top: 3vh;
+  margin: 1.5vh;
   width: 35vw;
   z-index: 100;
   border-radius: 5%;
   background-color: $bg-nav;
+  box-shadow: 0 0 10px $bg-celeste;
 }
 
 .nav-link {
@@ -38,7 +39,6 @@
   color: $txt-color;
   text-shadow: 0 0 8px $txt-shadow;
   font-style: $font;
-  background-color: $nav-item;
   border-radius: 40%;
  
 }
