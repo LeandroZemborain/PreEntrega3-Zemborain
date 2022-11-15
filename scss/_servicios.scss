@@ -13,7 +13,9 @@
   }
   
 .segmento1,
-.segmento2{
+.segmento2{ 
+  background-color: $cf-bg;
+  border-radius: 2%;
   h2{
     text-align: center;
     text-decoration: underline;

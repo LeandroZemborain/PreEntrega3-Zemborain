@@ -226,36 +226,40 @@ body {
   margin: 0.2rem;
   margin-top: 1.5rem; }
 
-.segmento1 h2,
-.segmento2 h2 {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 1.6rem;
-  border-radius: 3%;
-  padding: 0.4rem; }
-
-.segmento1 p,
-.segmento2 p {
-  text-shadow: 0 0 1px #000000;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 1.1rem;
-  padding: 0.4rem;
-  margin: 0.4rem;
-  text-align: start; }
-
-.segmento1 img,
-.segmento2 img {
-  height: 20vh;
-  width: 20vh;
-  padding: 0.4rem;
-  filter: opacity(80%);
-  border-radius: 50%;
-  float: right; }
+.segmento1,
+.segmento2 {
+  background-color: #418f9d4f;
+  border-radius: 2%; }
+  .segmento1 h2,
+  .segmento2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    border-radius: 3%;
+    padding: 0.4rem; }
+  .segmento1 p,
+  .segmento2 p {
+    text-shadow: 0 0 1px #000000;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
+    text-align: start; }
+  .segmento1 img,
+  .segmento2 img {
+    height: 20vh;
+    width: 20vh;
+    padding: 0.4rem;
+    filter: opacity(80%);
+    border-radius: 50%;
+    float: right; }
 
 /*Nosotros*/
 .contenedor-ns {
-  width: 100%; }
+  width: 100%;
+  background-color: #418f9d4f;
+  border-radius: 2%; }
   .contenedor-ns img {
     height: 30vh;
     width: 20vh;
