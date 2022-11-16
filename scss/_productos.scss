@@ -1,19 +1,17 @@
 /*Productos*/
 .bg-prod {
-  /**hacer @extend o mixin**/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: $txt-color;
-  background-image: url(../img/fondoverde1.jpg);
+  background-image: url(../img/fondoverde1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .titulo h1 {
-  /**hacer mixin o extend--**/
   font-family: $font;
   font-size: 3rem;
   text-align: center;

@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background: #ffffff;
-  background-image: url("../img/marianatienerazon.jpg");
+  background-image: url("../img/fondo-principal.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -151,19 +151,17 @@ body {
 
 /*Productos*/
 .bg-prod {
-  /**hacer @extend o mixin**/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: #ffffff;
-  background-image: url(../img/fondoverde1.jpg);
+  background-image: url(../img/fondoverde1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 
 .titulo h1 {
-  /**hacer mixin o extend--**/
   font-family: "Roboto";
   font-size: 3rem;
   text-align: center;
